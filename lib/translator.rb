@@ -21,8 +21,6 @@ end
 
 def get_english_meaning(file_path, emoji)
   emoticons = load_library(file_path)
-  emoticons[0]
-  emoticons[1]
   binding.pry
 end 
   
