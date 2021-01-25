@@ -20,7 +20,7 @@ end
 
 
 def get_english_meaning(file_path, emoji)
-  
+  emoji = load_library
 binding.pry
 end 
   
