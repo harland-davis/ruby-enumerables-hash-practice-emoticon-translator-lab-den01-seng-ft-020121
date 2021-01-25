@@ -21,6 +21,6 @@ end
 
 def get_english_meaning(file_path, emoji)
   emoji = load_library(file_path)
-binding.pry
+
 end 
   
