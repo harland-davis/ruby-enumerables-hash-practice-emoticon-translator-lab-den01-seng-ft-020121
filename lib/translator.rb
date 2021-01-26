@@ -23,7 +23,7 @@ def get_english_meaning(file_path, emoji)
   emoticons = load_library(file_path)
   emoticons.each do |word, value|
     english_word = ""
-    if emoji
+    if emoji[]
       return word
       binding.pry 
     else 
