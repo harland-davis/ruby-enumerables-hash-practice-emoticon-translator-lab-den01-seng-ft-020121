@@ -25,8 +25,6 @@ def get_english_meaning(file_path, emoji)
   emoticons.each do |key, value|
       if value[:japanese] == emoji
         return key
-      else
-        'Sorry, that emoticon is not known.'
     end
   end
 end 
