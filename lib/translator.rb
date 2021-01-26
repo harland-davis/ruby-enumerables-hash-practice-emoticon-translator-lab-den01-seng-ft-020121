@@ -21,14 +21,14 @@ end
 
 def get_english_meaning(file_path, emoji)
   emoticons = load_library(file_path)
-  english word = ""
+  english_name = ""
   emoticons.each do |word, value|
       if value[:japanese] == emoji
-        return word
+        english_name = word
       else
         "Sorry, that emoticon is not found"
      end
    end
-   word
+   english_name
 end 
   
