@@ -26,7 +26,6 @@ def get_english_meaning(file_path, emoji)
         return word
       else
         'Sorry, that emoticon is not known.'
-     end
    end
    word
 end 
