@@ -21,5 +21,9 @@ end
 
 def get_english_meaning(file_path, emoji)
   emoticons = load_library(file_path)
-end
+  english_name = ""
+  emoticons.each do |key, value|
+    if emoji == [:japanese][value]
+    end
+end 
   
