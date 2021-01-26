@@ -26,7 +26,7 @@ def get_english_meaning(file_path, emoji)
     if emoji == [value][:japanese]
       return english_name = key
     else 
-      
+      "Sorry, that emoticon was not found"
     end
     
     binding.pry 
