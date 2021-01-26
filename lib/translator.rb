@@ -22,13 +22,13 @@ end
 def get_english_meaning(file_path, emoji)
   emoticons = load_library(file_path)
   emoticons.each do |word, value|
-    if .has_key?(emoji)
+    if emoji[word].has_value?(emoji)
+      binding.pry
       return word
-      binding.pry 
     else 
       "Sorry, that emoticon was not found"
     end
   end 
-  english_name 
+  word 
 end 
   
