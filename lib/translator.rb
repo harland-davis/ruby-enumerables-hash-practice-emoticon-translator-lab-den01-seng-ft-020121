@@ -22,7 +22,7 @@ end
 def get_english_meaning(file_path, emoji)
   emoticons = load_library(file_path)
   emoticons.each do |word, value|
-    if emoji[word].has_key?
+    if emoji[word].has_key?(emoji)
       return word
       binding.pry 
     else 
