@@ -24,7 +24,7 @@ def get_english_meaning(file_path, emoji)
   english_name = ""
   emoticons.each do |word, value|
       if value[:japanese] = emoji
-         
+        english_name = name 
      end
    end
 end 
