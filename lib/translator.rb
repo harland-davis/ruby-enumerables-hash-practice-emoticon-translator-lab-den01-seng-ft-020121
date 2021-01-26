@@ -25,5 +25,6 @@ def get_english_meaning(file_path, emoji)
       if value[:japanese] = emoji
       binding.pry
      end 
+   end
 end 
   
