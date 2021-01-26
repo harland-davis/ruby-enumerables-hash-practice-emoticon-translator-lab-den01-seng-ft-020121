@@ -22,6 +22,7 @@ end
 
 def get_english_meaning(file_path, emoji)
   emoticons = load_library(file_path)
+  emoticons.each do |word, value|
   if emoticon[word].has_key?(emoji)
     emoticon[word][emoji]
   else
